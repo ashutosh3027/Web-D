@@ -1,0 +1,54 @@
+/*
+===================================
+ *******Navbar Related Css*******
+===================================
+*/
+.navbar {
+    width: 100vw;
+    height: 80px;
+    /*********************Some optional background color of navbars**********************/
+    /* background-color: #485461;
+    background-image: linear-gradient(315deg, #485461 0%, #28313b 74%); */
+    /* background-color: #045de9;
+    background-image: linear-gradient(86deg, #045de9 0%, #098bf9 74%); */
+    background-color: #2a5470;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(255, 235, 235);
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10% 0 0;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+ul li.nav_items{
+    margin: 0 5%;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo h1{
+    width: 60px;
+    height: 60px;
+    transition: all 0.3s ease 0s;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer; 
+}
+.logo h1:hover{
+    /* background-color: #485461d6; */
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+}
